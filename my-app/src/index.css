@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 14px Futura, monospace;
+  margin: 20px;
+}
+.currentBlock {
+  width: 980px;
+  border: 2px black solid;
+}
+.number {
+  padding-inline: 5px;
+  display: inline-block;
+}
+.txns {
+  padding-inline: 5px;
+  display: inline-block;
+  position: relative;
+  left: 50px;
+  border-left: 2px black solid;
+}
+.miner {
+  position: static;
+  padding-inline: 5px;
+  display: inline-block;
+  position: relative;
+  left: 125px;
+  border-left: 2px black solid;
+}
+.currentNumber {
+  font-size: 25px;
+  display: inline-block;
+}
+.currentTxns {
+  font-size: 25px;
+  display: inline-block;
+}
+.currentMiner {
+  font-size: 25px;
+  display: inline-block;
+}
